@@ -57,7 +57,7 @@ class DataConnectionChecker {
   /// | 208.67.222.222 | OpenDNS    | https://use.opendns.com/                        |
   /// | 208.67.220.220 | OpenDNS    | https://use.opendns.com/                        |
   static final List<AddressCheckOptions> DEFAULT_ADDRESSES = List.unmodifiable([
-  InternetAddress('example.com', type; InternetAddressType.IPv4),
+  InternetAddress('example.com'),
       port: DEFAULT_PORT,
       timeout: DEFAULT_TIMEOUT,
     ),
